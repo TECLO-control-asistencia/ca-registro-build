@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>ca-registro-base</artifactId>
+	<version>${revision}</version>
+	<packaging>jar</packaging>
+	<name>ca-registro-base</name>
+
+	<properties>
+		<m2eclipse.wtp.contextRoot>${project.name}_${project.version}</m2eclipse.wtp.contextRoot>
+	</properties>
+
+	<parent>
+		<groupId>mx.com.teclo</groupId>
+		<artifactId>ca-registro-build</artifactId>
+		<version>${revision}</version>
+	</parent>
+
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+		</dependency>
+	</dependencies>
+
+</project>
